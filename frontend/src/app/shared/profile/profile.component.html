@@ -1,0 +1,28 @@
+<ngx-loading [show]="loading"></ngx-loading>
+
+<div class="container-fluid mt-2">
+  <div class="row">
+    <div class="col-12 col-sm-12">
+      <mat-card class="h-100">
+        <dt>
+          <h2 class="fs-3 border-bottom">Profile</h2>
+        </dt>
+        <div class="border-bottom">
+          <h3 class="highlight" role="button" (click)="newPost()">Create New Post</h3>
+          <h3 class="d-flex highlight" role="button" (click)="addDoves()">Add Doves</h3>
+          <h3 class="d-flex highlight" role="button" [routerLink]="['/my-posts']">My Posts</h3>
+        </div>
+        <div class="mt-2">
+          <img class="img-fluid" [src]="img ? img : 'assets/default-img.png'" alt="dove img">
+          <div class="d-flex justify-content-between text-center border-top 
+          border-bottom my-2">
+            <dt (click)="showFollowers()" role="button">{{followersCount}}<span class="d-block">Followers</span></dt>
+            <dt>{{followingCount}}<span class="d-block">Followings</span></dt>
+          </div>
+          <dt>{{name}}</dt>
+          <dt>{{email}}</dt>
+        </div>
+      </mat-card>
+    </div>
+  </div>
+</div>

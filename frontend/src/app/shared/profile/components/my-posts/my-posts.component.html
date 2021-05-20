@@ -1,0 +1,34 @@
+<ngx-loading [show]="loading"></ngx-loading>
+
+<div class="container-fluid bg-light extreme">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12">
+        <ng-container *ngIf="posts.length == 0">
+          <mat-card class="mt-2 anim">
+            <dt class="text-center">You don't have any posts yet!</dt>
+          </mat-card>
+        </ng-container>
+        <ng-container *ngIf="posts.length > 0">
+          <ng-container *ngFor="let post of posts | paginate: { itemsPerPage: 3, currentPage: page }">
+            <mat-card class="mt-2 anim">
+              <div class="d-flex border-bottom pb-2">
+                <img class="maxx" [src]="profile.photoUrl" alt="dove img">
+                <h3 class="my-auto">
+                  <dt class="ms-3">{{profile.name}}</dt>
+                </h3>
+              </div>
+              <h2>{{post.post}}</h2>
+              <p class="text-end">{{post.postDate | date:'short'}}</p>
+            </mat-card>
+          </ng-container>
+        </ng-container>
+      </div>
+
+      <div class="text-center mt-5">
+        <pagination-controls (pageChange)="page = $event"></pagination-controls>
+      </div>
+
+    </div>
+  </div>
+</div>

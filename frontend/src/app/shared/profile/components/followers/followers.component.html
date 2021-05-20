@@ -1,0 +1,33 @@
+<ngx-loading [show]="loading"></ngx-loading>
+
+<div class="container-fluid">
+  <div class="row">
+
+    <ng-container *ngIf="followers.length == 0">
+      <mat-card class="mt-2">
+        <dt class="text-center">Looks like you don't have any Dove on your net yet!</dt>
+      </mat-card>
+    </ng-container>
+
+    <ng-contianer *ngIf="followers.length > 0">
+      <h2>
+        <dt>Here are all your followers ({{followers.length}})</dt>
+      </h2>
+      <ng-container *ngFor="let x of followers | paginate: { itemsPerPage: 1, currentPage: page }">
+        <ng-container *ngFor="let y of x['followersData']">
+          <mat-card class="mt-2 d-flex">
+            <img class="maxx" [src]="y.photoUrl" alt="dove img">
+            <h3 class="my-auto ms-3">
+              <dt>{{y.name}}</dt>
+            </h3>
+          </mat-card>
+        </ng-container>
+      </ng-container>
+    </ng-contianer>
+
+    <div class="text-center mt-3">
+      <pagination-controls (pageChange)="page = $event"></pagination-controls>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,11 @@
+{
+    "mongoUrl": "mongodb://localhost:27017",
+    "Server": {
+        "host": "0.0.0.0",
+        "port": 3000
+    },
+    "Hosts": {
+        "Frontend": "http://localhost:4200",
+        "Backend": "http://localhost:3000"
+    }
+}

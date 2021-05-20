@@ -1,0 +1,32 @@
+<ngx-loading [show]="loading"></ngx-loading>
+
+<div class="container-fluid bg-light">
+  <div class="row">
+    <ng-container *ngIf="doves.length == 0">
+      <mat-card class="mt-2">
+        <dt class="text-center">Looks like we don't have any other dove yet!</dt>
+      </mat-card>
+    </ng-container>
+    <ng-contianer *ngIf="doves.length > 0">
+      <h2>
+        <dt>Here are all the doves ({{doves.length}})</dt>
+      </h2>
+      <ng-container *ngFor="let d of doves | paginate: { itemsPerPage: 1, currentPage: page }">
+        <mat-card class="mt-2 d-flex justify-content-between">
+          <img class="maxx" [src]="d.photoUrl" alt="dove img">
+          <h3 class="my-auto">
+            <dt>{{d.name}}</dt>
+          </h3>
+          <button mat-raised-button (click)="follow(d._id)" *ngIf="!d.following" class="btn primary-btn">Follow</button>
+          <button mat-raised-button (click)="unFollow(d._id)" *ngIf="d.following"
+            class="btn secondary-btn">Unfollow</button>
+        </mat-card>
+      </ng-container>
+    </ng-contianer>
+  </div>
+
+  <div class="text-center mt-3">
+    <pagination-controls (pageChange)="page = $event"></pagination-controls>
+  </div>
+
+</div>

@@ -1,0 +1,34 @@
+<ngx-loading [show]="loading"></ngx-loading>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-sm-12">
+
+      <ng-container *ngIf="data.length == 0">
+        <mat-card class="mt-2 anim">
+          <dt class="text-center">Follow other Doves and their posts will be show here!</dt>
+        </mat-card>
+      </ng-container>
+
+      <ng-container *ngIf="data.length > 0">
+        <ng-container *ngFor="let x of data">
+          <ng-container *ngFor="let y of x['postsData']">
+            <ng-container *ngFor="let z of x['followerData']">
+              <mat-card class="mt-2 anim">
+                <div class="d-flex border-bottom pb-2" (click)="checkProfile(z._id)" role="button">
+                  <img class="maxx" [src]="z.photoUrl" alt="dove img">
+                  <h3 class="my-auto">
+                    <dt class="ms-3">{{z.name}}</dt>
+                  </h3>
+                </div>
+                <h2>{{y.post}}</h2>
+                <p class="text-end">{{y.postDate | date:'short'}}</p>
+              </mat-card>
+            </ng-container>
+          </ng-container>
+        </ng-container>
+      </ng-container>
+
+    </div>
+  </div>
+</div>

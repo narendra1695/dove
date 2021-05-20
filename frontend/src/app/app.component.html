@@ -1,0 +1,3 @@
+<app-header *ngIf="localAuth.checkAuthToken()"></app-header>
+<router-outlet></router-outlet>
+<app-footer *ngIf="localAuth.checkAuthToken()"></app-footer>

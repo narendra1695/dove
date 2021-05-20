@@ -1,0 +1,80 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0 !important;
+}
+
+.main-bg {
+  background: #00F260;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #0575E6, #00F260);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #0575E6, #00F260);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.extreme {
+  height: 100vh;
+}
+
+.highlight:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.anim:hover {
+  position: relative;
+  top: -3px;
+}
+
+.maxx {
+  max-height: 40px;
+}
+
+.btn {
+  height: 40px !important;
+
+}
+
+.primary-btn {
+  background-color: #0575E6;
+  color: #fff;
+}
+
+.primary-btn:hover {
+  background-color: #fff;
+  color: #0575E6;
+  border: 2px solid #0575E6;
+}
+
+.secondary-btn {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.secondary-btn:hover {
+  background-color: #fff;
+  color: #6c757d;
+  border: 2px solid #6c757d;
+}
+
+.ngx-pagination {
+  padding-left: 0 !important;
+}
