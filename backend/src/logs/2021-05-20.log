@@ -670,3 +670,145 @@
 20.05.2021 18:04 [info] 	[v1.0.0] PostController::getPostByProfileID -> Fetching posts data of the given profile ID
 20.05.2021 18:04 [info] 	[v1.0.0] PostController::getPostByProfileID -> Fetching posts data of the given profile ID
 20.05.2021 18:05 [info] 	[v1.0.0] PostController::getPostByProfileID -> Fetching posts data of the given profile ID
+20.05.2021 20:18 [info] 	[v1.0.0] Backend is running: http://0.0.0.0:3000
+20.05.2021 20:18 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:18 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:18 [info] 	[v1.0.0] Backend is running: http://0.0.0.0:3000
+20.05.2021 20:19 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:19 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:19 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:19 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:20 [info] 	[v1.0.0] ProfileController::insertProfile -> Operation complete
+20.05.2021 20:20 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:20 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:21 [info] 	[v1.0.0] PostController::insertPost -> Post added
+20.05.2021 20:21 [info] 	[v1.0.0] PostController::getPostByProfileID -> Fetching posts data of the given profile ID
+20.05.2021 20:21 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:21 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:21 [info] 	[v1.0.0] PostController::insertPost -> Post added
+20.05.2021 20:21 [info] 	[v1.0.0] PostController::getPostByProfileID -> Fetching posts data of the given profile ID
+20.05.2021 20:21 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:21 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:21 [info] 	[v1.0.0] PostController::insertPost -> Post added
+20.05.2021 20:21 [info] 	[v1.0.0] PostController::getPostByProfileID -> Fetching posts data of the given profile ID
+20.05.2021 20:21 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:21 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:21 [info] 	[v1.0.0] ProfileController::insertProfile -> Operation complete
+20.05.2021 20:21 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:21 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:22 [info] 	[v1.0.0] PostController::insertPost -> Post added
+20.05.2021 20:22 [info] 	[v1.0.0] PostController::getPostByProfileID -> Fetching posts data of the given profile ID
+20.05.2021 20:22 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:22 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:22 [info] 	[v1.0.0] PostController::insertPost -> Post added
+20.05.2021 20:22 [info] 	[v1.0.0] PostController::insertPost -> Post added
+20.05.2021 20:22 [info] 	[v1.0.0] PostController::getPostByProfileID -> Fetching posts data of the given profile ID
+20.05.2021 20:22 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:22 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:22 [info] 	[v1.0.0] ProfileController::getAllProfiles -> Fetching all profiles
+20.05.2021 20:22 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:22 [info] 	[v1.0.0] FollowerController::addFollower -> Follower added
+20.05.2021 20:22 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:23 [info] 	[v1.0.0] ProfileController::insertProfile -> Operation complete
+20.05.2021 20:23 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:23 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:23 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:23 [info] 	[v1.0.0] ProfileController::getAllProfiles -> Fetching all profiles
+20.05.2021 20:23 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:23 [info] 	[v1.0.0] FollowerController::addFollower -> Follower added
+20.05.2021 20:23 [info] 	[v1.0.0] ProfileController::insertProfile -> Operation complete
+20.05.2021 20:23 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:23 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:23 [info] 	[v1.0.0] PostController::insertPost -> Post added
+20.05.2021 20:23 [info] 	[v1.0.0] ProfileController::getAllProfiles -> Fetching all profiles
+20.05.2021 20:23 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:23 [info] 	[v1.0.0] FollowerController::addFollower -> Follower added
+20.05.2021 20:23 [info] 	[v1.0.0] FollowerController::addFollower -> Follower added
+20.05.2021 20:23 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:23 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:23 [info] 	[v1.0.0] ProfileController::insertProfile -> Operation complete
+20.05.2021 20:23 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:23 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:23 [info] 	[v1.0.0] ProfileController::getAllProfiles -> Fetching all profiles
+20.05.2021 20:23 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:23 [info] 	[v1.0.0] FollowerController::addFollower -> Follower added
+20.05.2021 20:23 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:23 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:24 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:24 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:24 [info] 	[v1.0.0] ProfileController::insertProfile -> Operation complete
+20.05.2021 20:24 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:24 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:24 [info] 	[v1.0.0] ProfileController::getAllProfiles -> Fetching all profiles
+20.05.2021 20:24 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:24 [info] 	[v1.0.0] FollowerController::addFollower -> Follower added
+20.05.2021 20:24 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:24 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:24 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:24 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:24 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:24 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:25 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:25 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:25 [info] 	[v1.0.0] ProfileController::getAllProfiles -> Fetching all profiles
+20.05.2021 20:25 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:25 [info] 	[v1.0.0] FollowerController::addFollower -> Follower added
+20.05.2021 20:25 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:25 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:25 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:25 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:25 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:25 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 20:25 [info] 	[v1.0.0] ProfileController::getAllProfiles -> Fetching all profiles
+20.05.2021 20:25 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:25 [info] 	[v1.0.0] FollowerController::addFollower -> Follower added
+20.05.2021 20:25 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 20:25 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 22:25 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 22:35 [info] 	[v1.0.0] ProfileController::insertProfile -> Operation complete
+20.05.2021 22:35 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 22:35 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 22:35 [info] 	[v1.0.0] ProfileController::insertProfile -> Operation complete
+20.05.2021 22:35 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 22:35 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 22:35 [info] 	[v1.0.0] ProfileController::insertProfile -> Operation complete
+20.05.2021 22:35 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 22:35 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 22:40 [info] 	[v1.0.0] ProfileController::getAllProfiles -> Fetching all profiles
+20.05.2021 22:40 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 22:40 [info] 	[v1.0.0] FollowerController::unFollow -> Follower removed
+20.05.2021 22:41 [info] 	[v1.0.0] FollowerController::addFollower -> Follower added
+20.05.2021 22:41 [info] 	[v1.0.0] FollowerController::unFollow -> Follower removed
+20.05.2021 22:41 [info] 	[v1.0.0] PostController::getPostByProfileID -> Fetching posts data of the given profile ID
+20.05.2021 22:41 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 22:41 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 22:42 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 22:43 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 22:43 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 22:43 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 22:43 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 22:44 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 22:44 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 22:44 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 22:44 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 22:44 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 22:44 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 22:45 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 22:45 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 22:45 [info] 	[v1.0.0] ProfileController::getAllProfiles -> Fetching all profiles
+20.05.2021 22:45 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 22:45 [info] 	[v1.0.0] FollowerController::addFollower -> Follower added
+20.05.2021 22:45 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 22:45 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 22:47 [info] 	[v1.0.0] ProfileController::getAllProfiles -> Fetching all profiles
+20.05.2021 22:47 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 22:47 [info] 	[v1.0.0] PostController::getPostByProfileID -> Fetching posts data of the given profile ID
+20.05.2021 22:47 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 22:47 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 22:47 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 22:55 [info] 	[v1.0.0] Backend is running: http://0.0.0.0:3000
+20.05.2021 22:55 [info] 	[v1.0.0] FollowerController::getFollowersByProID -> Fetching followers data of the given profile ID
+20.05.2021 22:55 [info] 	[v1.0.0] FollowerController::getProfileData -> Fetching profile data of the given ID
+20.05.2021 22:55 [info] 	[v1.0.0] ProfileController::getProfileByID -> Fetching profile data of the given ID
+20.05.2021 22:55 [info] 	[v1.0.0] ProfileController::getProfileByID -> Fetching profile data of the given ID
+20.05.2021 22:55 [info] 	[v1.0.0] ProfileController::getProfileByID -> Fetching profile data of the given ID
