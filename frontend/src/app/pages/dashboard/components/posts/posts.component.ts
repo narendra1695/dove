@@ -53,7 +53,8 @@ export class PostsComponent implements OnInit {
     this.followerService.followListner().subscribe(
       (res: any) => {
         this.loading = false;
-        this.data = res.reverse();
+        this.data = res;
+        this.data.reverse();
       },
       (error: any) => {
         this.loading = false;
